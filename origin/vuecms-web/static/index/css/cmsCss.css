@@ -1,0 +1,171 @@
+body,html,h1,h2,h3,h4,h5,h6,ul,li,img,ol,dl,dd,p,input,select,textarea,td,div,form,textarea,th{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"微软雅黑";
+}
+a{
+    text-decoration:none;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border:0;
+    display: block;
+}
+
+
+
+/*header*/
+header{
+    width: 100%;
+}
+.ind-header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 10px 1px 15px rgba(0,0,0,.17);
+    padding: 0 24px;
+    position: fixed;
+    z-index: 999;
+    float: left;
+    box-sizing: border-box;
+}
+.ind-header-img{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+.ind-header-img img{
+    display: inline-block;
+}
+.ind-header-l{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 45px;
+}
+.ind-header-l img{
+    display: inline-block;
+}
+.ind-header-r{
+    float: right;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.ind-header-r img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+}
+.ind-user{
+    font-size: 20px;
+}
+.ind-header-r .iconfont{
+    color: #777;
+    cursor: pointer;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+
+
+
+/*aside*/
+.aside{
+    background: #188ae2;
+    position: fixed;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    z-index: 99;
+    overflow-y: scroll;
+    width: 220px;
+    height: 100%;
+    transition: width .3s;
+}
+.aside::-webkit-scrollbar {display:none}
+
+aside{
+    /*overflow: hidden;*/
+    width: auto;
+    height: 100%;
+}
+.ind-menu-t{
+    display: block;
+    color: #3caeff;
+    padding: 20px 24px;
+    font-size: 16px;
+    outline: none;
+}
+.ind-menu-uls1{
+  overflow: hidden;
+}
+
+.ind-menu-uls1 li{
+    padding-left: 20px;
+    background: #1276c3;
+    color: #fff;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    display: table;
+}
+.ind-menu-lis{
+
+}
+.ind-menu-uls1 .iconfont{
+    margin-left: 4px;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.icojt{
+    right: 1px;
+    position: absolute;
+}
+.ind-menu-uls2 {
+    display: none;
+}
+.ind-menu-uls2 li{
+    background: url("../img/indd.png") no-repeat left center;
+    margin-left: 30px;
+    color: #65bfff;
+}
+.ind-menu-uls2 li span{
+    color: white;
+}
+
+
+
+
+/*section */
+section{
+  margin-left: 220px;
+  position: relative;
+  right: 0;
+  left: 0;
+  padding-top: 80px;
+}
+.index-sec{
+  padding: 0 24px;
+  height: 64px;
+  line-height: 64px;
+  overflow: hidden;
+}
+.index-sec li{
+  float: left;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.index-sec-li1{
+  color: #999;
+}
+
+
+
+

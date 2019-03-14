@@ -115,9 +115,11 @@ aside{
     line-height: 48px;
     font-size: 16px;
     display: table;
+    cursor: pointer;
 }
 .ind-menu-lis{
-
+  /*display: block;*/
+  /*width: 100%;*/
 }
 .ind-menu-uls1 .iconfont{
     margin-left: 4px;
@@ -136,7 +138,7 @@ aside{
     margin-left: 30px;
     color: #65bfff;
 }
-.ind-menu-uls2 li span{
+.ind-menu-uls2 li a{
     color: white;
 }
 
@@ -145,13 +147,13 @@ aside{
 
 /*section */
 section{
-  margin-left: 220px;
   position: relative;
   right: 0;
   left: 0;
   padding-top: 80px;
 }
 .index-sec{
+  margin-left: 220px;
   padding: 0 24px;
   height: 64px;
   line-height: 64px;

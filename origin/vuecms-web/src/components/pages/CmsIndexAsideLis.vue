@@ -1,6 +1,6 @@
 <template>
     <div>
-      <li><span>{{data}}</span></li>
+      <li><router-link :to=data.to >{{data.title}}</router-link></li>
     </div>
 </template>
 

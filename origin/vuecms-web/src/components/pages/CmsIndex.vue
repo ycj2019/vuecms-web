@@ -3,13 +3,12 @@
       <header>
           <cms-index-hea></cms-index-hea>
       </header>
-      <div class="xxx">
       <div class="aside">
         <cms-index-aside v-if="cartInfo" :data="cartInfo.index"></cms-index-aside>
       </div>
-      </div>
       <section>
         <cms-index-sec></cms-index-sec>
+        <router-view></router-view>
       </section>
     </div>
 </template>

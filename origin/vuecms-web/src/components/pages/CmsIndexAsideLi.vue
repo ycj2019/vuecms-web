@@ -18,23 +18,11 @@
     export default {
         name: "CmsIndexAsideLi",
         components: {CmsIndexAsideLis},
-        mounted() {
-          $(".ind-menu-lis").click(function(){
-
-          });
+        methods:{
+            big(ev){
+              $(ev.target).parent().next().slideToggle();
+            }
         },
-      methods:{
-          big(ev){
-            /*console.log(this);
-            $(this).slideToggle();
-            $(this).siblings().children("ul").slideUp();*/
-            $(ev.target).parent().next().slideToggle();
-          }
-          /*big(){
-            // document.querySelector(".ind-menu-lis").nextSibling.style.display="none"
-
-          }*/
-      },
         props:["data","idx"]
     }
 </script>

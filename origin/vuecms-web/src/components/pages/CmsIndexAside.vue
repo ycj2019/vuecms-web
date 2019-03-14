@@ -7,7 +7,9 @@
             <span class="iconfont icon-iconfontdesktop"></span>
             <span class="ind-menu-span">工作台</span>
           </li>
-          <cms-index-aside-li  v-for="(u,idx) in data" :key="idx" :data="u"></cms-index-aside-li>
+          <!--<li>-->
+            <cms-index-aside-li  v-for="(u,idx) in data" :key="idx" :data="u"></cms-index-aside-li>
+          <!--</li>-->
         </ul>
       </aside>
     </div>

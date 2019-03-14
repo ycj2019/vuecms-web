@@ -107,6 +107,7 @@ aside{
 }
 
 .ind-menu-uls1 li{
+    cursor: pointer;
     padding-left: 20px;
     background: #1276c3;
     color: #fff;
@@ -115,11 +116,9 @@ aside{
     line-height: 48px;
     font-size: 16px;
     display: table;
-    cursor: pointer;
 }
 .ind-menu-lis{
-  /*display: block;*/
-  /*width: 100%;*/
+
 }
 .ind-menu-uls1 .iconfont{
     margin-left: 4px;
@@ -137,6 +136,7 @@ aside{
     background: url("../img/indd.png") no-repeat left center;
     margin-left: 30px;
     color: #65bfff;
+    cursor: pointer;
 }
 .ind-menu-uls2 li a{
     color: white;

@@ -1,6 +1,6 @@
 <template>
     <div>
-      <li><router-link :to=data.to >{{data.title}}</router-link></li>
+      <li><router-link to="runSection">{{data}}</router-link></li>
     </div>
 </template>
 
@@ -11,6 +11,6 @@
     }
 </script>
 
-<style scoped>
+<style>
 
 </style>

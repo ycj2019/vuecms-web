@@ -1,18 +1,12 @@
 <template>
     <div>
-      <li class="index-sec-li1" v-for="item in breadcrumb"> > {{item.name}} </li>
+      <li class="index-sec-li1"> > 工作台 </li>
     </div>
 </template>
 
 <script>
     export default {
-        name: "CmsIndexSecLis",
-        computed :{
-          breadcrumb () {
-            console.log(this.$route)
-            return this.$route.meta.breadcrumb
-          }
-        }
+        name: "CmsIndexSecLis"
     }
 </script>
 

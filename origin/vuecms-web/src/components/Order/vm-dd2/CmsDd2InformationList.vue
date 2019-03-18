@@ -2,7 +2,7 @@
   <div class="vm-dd2-bigBox4">
     <ul>
       <li>
-        <input type="checkbox" />
+        <input type="checkbox">
         <span>id</span>
         <span>订单编号</span>
         <span>物流编号</span>
@@ -28,12 +28,16 @@
 
 <style scoped>
   .vm-dd2-bigBox4{
-    width:1073px;
+    width:100%;
     height:287px;
     margin-top: -10px;
+
+  }
+  .vm-dd2-bigBox4 ul{
+    width: 100%;
   }
   .vm-dd2-bigBox4 ul li{
-    width: 966px;
+    width: 100%;
     height: 47px;
     border-bottom: 1px solid #ebeef5;
     display: flex;

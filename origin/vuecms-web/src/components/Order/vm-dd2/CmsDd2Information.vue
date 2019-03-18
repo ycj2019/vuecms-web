@@ -7,7 +7,7 @@
     <span>未打印</span>
     <span>admin</span>
     <span>
-          <span class="iconfont icon-torder_light"></span>
+          <router-link to="/cmsdd2Children"><span class="iconfont icon-torder_light"></span></router-link>
           <span class="iconfont icon-del"></span>
         </span>
   </li>
@@ -22,7 +22,7 @@
 <style scoped>
 
   .vm-dd2-bigBox4 ul li{
-    width: 966px;
+    width: 100%;
     height: 47px;
     border-bottom: 1px solid #ebeef5;
     display: flex;
@@ -43,6 +43,9 @@
   }
   .vm-dd2-bigBox4 ul li>span:last-child{
     width: 200px;
+  }
+  li a{
+    text-decoration: none;
   }
   .icon-torder_light,.icon-del{
     padding:3px 3px;

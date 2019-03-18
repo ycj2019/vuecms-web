@@ -1,7 +1,7 @@
 <template>
   <div class="sm-sec-right-one">
     <div class="sm-sec-right-one-1">
-      <div class="add-thing">
+      <div class="ad-thing">
         <button class="add-btn">
           <span>添加规格</span>
         </button>

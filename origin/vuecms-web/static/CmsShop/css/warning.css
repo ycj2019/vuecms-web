@@ -31,10 +31,7 @@ h1,h2,h3,h4,h5,h6{
 	font-size: 100%;
 	font-weight:normal;
 }
-div{
-  /*font-size:14px;*/
 
-}
 /*section*/
 .sm-section{
 	margin-left: 220px;
@@ -134,7 +131,7 @@ div{
 	padding:0 11px;
 }
 .sm-sec-right-one-4{
-	margin-left: 30px;
+	margin-left: 55px;
 	float: left;
     display: inline-block;
     margin-right: 20px;
@@ -214,7 +211,6 @@ div{
 }
 .sm-sec-right-two-1{
 	text-align: center;
-	background: #fff;
 	height: 48px;
 	flex:1;
 	justify-content: center;
@@ -369,6 +365,9 @@ div{
   color:#000;
   padding-left: 22px;
 }
+.close_menu:hover,.open_menu:hover,.three:hover{
+  background:#F5F7FA;
+}
 .close_menu span{
   background: url(../imgs/jia.png) no-repeat left center;
 }
@@ -376,13 +375,13 @@ div{
   background: url(../imgs/jian.png) no-repeat left center;
 }
 .one{
-  padding-left: 59px;
+  padding-left: 43px;
 }
 .two{
-  padding-left: 75px;
+  padding-left: 59px;
 }
 .three{
-  padding-left: 91px;
+  padding-left: 75px;
   height: 32px;
   line-height: 32px;
 }
@@ -460,4 +459,5 @@ div{
 .add-btn:hover{
   opacity: .8;
   border: 1px solid #409eff;
+  transition: .1s;
 }

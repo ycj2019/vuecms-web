@@ -34,5 +34,18 @@
 </script>
 
 <style scoped>
-
+  .bianji:hover{
+    opacity: .5;
+    transition: .5s;
+  }
+  .shanchu:hover{
+    opacity: .5;
+    transition: .5s;
+  }
+  .sm-sec-right-two:nth-child(2n){
+    background-color:#FAFAFA;
+  }
+  .sm-sec-right-two:hover{
+    background-color:#F5F7FA;
+  }
 </style>

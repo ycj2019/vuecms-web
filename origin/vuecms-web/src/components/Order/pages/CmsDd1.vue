@@ -1,8 +1,5 @@
 <template>
-  <div style="background: #f0f4f6;">
-    <header>
-        <cms-dd1-header></cms-dd1-header>
-    </header>
+  <div class="content">
     <section>
         <cms-dd1-header2></cms-dd1-header2>
         <cms-dd1-choose></cms-dd1-choose>
@@ -14,7 +11,6 @@
 </template>
 
 <script>
-    import CmsDd1Header from "../vm-dd/commons/CmsDd1Header"
     import CmsDd1Header2 from "../vm-dd/CmsDd1Header2"
 
     import CmsDd1Choose from "../vm-dd/CmsDd1Choose"
@@ -27,7 +23,7 @@
     export default {
         name: "CmsDd1",
         components:{
-          CmsDd1Header,
+
           CmsDd1Header2,
           CmsDd1Choose,
           CmsDd1InformationList,
@@ -37,10 +33,16 @@
 </script>
 
 <style scoped>
-
+  .content{
+    top: 64px;
+    bottom: 24px;
+    width: 100%;
+    padding: 0 24px;
+    background: #f0f4f6;
+  }
   section{
-    width:1100px;
-    height:770px;
+    width:100%;
+    height:100%;
     background: #fff;
     margin:0 auto;
     border:1px solid #d4dde2;

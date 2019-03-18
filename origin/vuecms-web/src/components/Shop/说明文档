@@ -1,0 +1,32 @@
+商品:
+
+公共组件:ShopMgHeader.vue          商品页面的头部
+        ShopMgLeft.vue            树状菜单
+        ShopTpFooter.vue          页面底部
+        ShopCsHeader.vue          页面头部
+        ShopTpHeader.vue          头部按钮
+        CmsUeditor.vue            富文本框
+        ShopAtTwo.vue             50%文本框
+        ShopInput.vue             100%文本框
+        ShopSelect.vue            有下拉菜单的文本框
+        ShopRlContentOne.vue      50%文本
+        ShopRlContentThree.vue    文本域
+
+
+
+        ShopClassify.vue          分类管理
+        ShopConsult.vue           商品咨询
+        ShopEvaluate.vue          商品评价
+        ShopFields.vue            商品字段
+        ShopIssue.vue             发布商品
+        ShopManage.vue            商品管理
+        ShopSell.vue              热销商品
+        ShopSpecification.vue     商品规格
+        ShopTrademark.vue         商品品牌
+        ShopType.vue              商品类型
+        ShopWarning.vue           库存预警
+        ShopReply.vue             回复
+        ShopAddType.vue           添加类型
+        ShopAddBrand.vue          添加品牌
+        ShopAmend.vue             修改商品
+        AddSpecification.vue      添加规格

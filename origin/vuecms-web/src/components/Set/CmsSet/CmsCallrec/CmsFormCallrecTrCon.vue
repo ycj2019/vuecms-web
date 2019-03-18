@@ -1,12 +1,12 @@
 <template>
-    <tr class="s-f-t-table-tr bb">
+    <tr class="s-f-t-table-tr bbs">
         <td class="s-f-t-table-a"><input type="checkbox"></td>
         <td class="s-f-t-table-a">1</td>
-        <td class="aa"></td>
-        <td class="aa">222222222222222222</td>
-        <td class="aa">10.35.170.7</td>
-        <td class="aa">32A5A40F4B1A7240237FF97462DDB909</td>
-        <td class="aa">2017-11-27 18:39:50</td>
+        <td class="aas"></td>
+        <td class="aas">222222222222222222</td>
+        <td class="aas">10.35.170.7</td>
+        <td class="aas">32A5A40F4B1A7240237FF97462DDB909</td>
+        <td class="s">2017-11-27 18:39:50</td>
         <td class="s-f-t-table-d">
             <a href="##" class="s-f-t-edits"><span class="iconfont icon-del"></span></a>
         </td>
@@ -32,7 +32,7 @@
     .iconfont{
         font-size: 26px;
     }
-    .bb:hover{
+    .bbs:hover{
         background: #eee;
         transition: .5s;
     }
@@ -101,7 +101,7 @@
     .s-f-t-table-d{
         width: 200px;
     }
-    .aa{
+    .aas{
         max-width: 75px;
     }
 </style>

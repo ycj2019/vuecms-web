@@ -33,13 +33,16 @@
 
 <style scoped>
   .vm-dd-bigBox4{
-    width:1100px;
+    width:100%;
     height:526px;
     margin-top: -10px;
-    overflow-x: auto;
+    /*overflow-x: hidden;*/
+  }
+  .vm-dd-bigBox4 ul{
+    width: 100%;
   }
   .vm-dd-bigBox4 ul li{
-    width:1100px;
+    width:100%;
     height:47px ;
     border-bottom: 1px solid #ebeef5;
     display: flex;

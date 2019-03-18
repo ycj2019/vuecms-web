@@ -2,7 +2,7 @@
   <div class="content">
     <section>
       <cms-dd2-header></cms-dd2-header>
-      <!--<cms-dd2-choose></cms-dd2-choose>-->
+      <cms-dd2-choose></cms-dd2-choose>
       <cms-dd2-information-list></cms-dd2-information-list>
       <cms-dd2-footer></cms-dd2-footer>
     </section>
@@ -33,10 +33,11 @@
   bottom: 24px;
   width: 100%;
   padding: 0 24px;
+  background: #f0f4f6;
 }
-  section{
-    width: 966px;
-    height:517px;
+section{
+    width: 100%;
+    height:100%;
     border:1px solid #d4dde2;
     margin:0 auto;
     background: #fff;

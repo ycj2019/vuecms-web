@@ -19,7 +19,10 @@
     </div>
     <div class="sm-sec-right-two-1">
       <div class="bianji">
-        <span class="iconfont icon-edit_small"></span>
+        <router-link to="/shop/ShopAmend">
+          <span class="iconfont icon-edit_small"></span>
+        </router-link>
+
       </div>
       <div class="shanchu">
         <span class="iconfont icon-del"></span>
@@ -45,4 +48,18 @@
   .bb img{
     vertical-align: middle;
   }
+    .bianji:hover{
+      opacity: .5;
+      transition: .5s;
+    }
+    .shanchu:hover{
+      opacity: .5;
+      transition: .5s;
+    }
+    .sm-sec-right-two:nth-child(2n){
+      background-color:#FAFAFA;
+    }
+    .sm-sec-right-two:hover{
+      background-color:#F5F7FA;
+    }
 </style>

@@ -16,7 +16,7 @@
         name: "shop-classify",
       components:{
         ShopMgHeader,
-        ShopCfSection
+        ShopCfSection,
       }
     }
 </script>

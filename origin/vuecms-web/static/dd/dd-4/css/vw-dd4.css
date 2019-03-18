@@ -37,7 +37,7 @@ img{
   color:skyblue;
 }
 /*bigbox*/
-.vm-dd4-bigBox{
+section{
   width: 1073px;
   height:1060px;
   border:1px solid #d4dde2;
@@ -115,7 +115,7 @@ img{
 .icon-edit_small,.icon-del{
   padding:3px 3px;
   border-radius: 3px;
-  color: white;
+  color: #fff;
   cursor: pointer;
 }
 .icon-edit_small{

@@ -10,6 +10,6 @@
     }
 </script>
 
-<style scoped>
-
+<style>
+@import "../../../../static/CmsShop/css/warning.css";
 </style>

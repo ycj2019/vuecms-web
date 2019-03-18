@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,input,select,textarea,td{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:"微软雅黑";
+  background: #f0f4f6;
+}
+a{
+  text-decoration:none;
+}
+ul,ol{
+  list-style:none;
+}
+img{
+  border:0;
+}
+section{
+  width: 1123px;
+  height: 509px;
+  border:1px solid #d4dde2;
+  margin:0 auto;
+}
+.header{
+  width:100% ;
+  height:49px;
+  border-bottom: 1px solid #d4dde2;
+  background: #eceff1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h3{
+  color: #565656;
+  font-size:14px;
+  margin-left: 24px;
+  font-weight: normal;
+}
+.header span{
+  padding:9px 15px;
+  background: #fff;
+  color:#606266;
+  font-size:14px;
+  margin-right: 24px;
+  border-radius: 4px;
+}
+.header span:hover{
+  color:skyblue;
+  border-color:skyblue;
+}
+.center{
+  width: 100%;
+  height: 323px;
+  background: #fff;
+
+}
+.center ul{
+  margin-left: 24px;
+}
+.center ul li{
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #eeeeee;
+  line-height: 80px;
+}
+.center i{
+  font-style: normal;
+  color:#f56c6c;
+  margin-right: 5px;
+}
+.center ul li:nth-child(2) span{
+  margin-left: 20px;
+}
+.center ul li:nth-child(3) span,.center ul li:nth-child(4) .spa2{
+  margin-left: 60px;
+}
+.center ul li span{
+  margin-left: 75px;
+  color:#606266;
+  font-size:14px
+}
+.center ul li input{
+  width: 298px;
+  height: 34px;
+  border-radius:4px;
+  border:1px solid #d8dce5;
+  margin-left: 31px;
+}
+.center ul .inputs{
+  width: 15px;
+  height: 15px;
+}
+.center ul .spa{
+  margin-left:5px;
+}
+.footer{
+  width: 100%;
+  height: 135px;
+  background: #fff;
+
+}
+.footer2{
+  width: 555px;
+  height: 135px;
+  margin-left: 180px;
+}
+.footer2Top{
+  height: 88px;
+  line-height: 88px;
+}
+.footer2Top span{
+  margin-left: 14px;
+}
+.footer2Top span:nth-child(1){
+  padding:10px 26px;
+  background: #409eff;
+  border-radius: 3px;
+  color: #fff;
+}
+.footer2Top span:nth-child(2){
+    padding:10px 26px;
+    color: #fff;
+    border-radius: 3px;
+    background: #909399;
+}
+.footer2Bottom span{
+  color:#adb3bf;
+  font-size:14px;
+  cursor: pointer;
+}

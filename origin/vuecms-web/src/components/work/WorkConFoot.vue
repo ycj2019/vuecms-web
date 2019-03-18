@@ -17,8 +17,8 @@
 
 <style scoped>
 .work-foots{
-  display: flex;
+  /*display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 </style>

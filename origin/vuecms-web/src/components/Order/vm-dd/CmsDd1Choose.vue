@@ -55,7 +55,7 @@
             >
           </el-date-picker>
         </div>
-        <img src="../../../../static/dd-1/img/5.png" alt="">
+        <img src="../../../../static/dd/dd-1/img/5.png" alt="">
         <div class="block">
           <el-date-picker
             v-model="value1"

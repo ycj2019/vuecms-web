@@ -22,5 +22,10 @@
 </script>
 
 <style scoped>
-
+  .sm-sec-right-two:nth-child(2n){
+    background-color:#FAFAFA;
+  }
+  .sm-sec-right-two:hover{
+    background-color:#F5F7FA;
+  }
 </style>

@@ -17,5 +17,7 @@
 </script>
 
 <style scoped>
-
+  .add-thing{
+    padding:0;
+  }
 </style>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cmsIndex</title>
+    <link rel="stylesheet" href="css/cmsCss.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+    <header>
+        <div class="ind-header">
+            <div class="ind-header-img">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="ind-header-l">
+                <img src="img/menu.png" alt="">
+            </div>
+            <div class="ind-header-r">
+                <img src="img/user.png" alt="">
+                <span class="ind-user">test1</span>
+                <span title="修改密码"  class="iconfont icon-bianji"></span>
+                <span title="查看首页"  class="iconfont icon-wangzhan-copy"></span>
+                <span title="退出" class="iconfont icon-out-copy"></span>
+            </div>
+        </div>
+    </header>
+    <div class="aside">
+    <aside class="ind-menu">
+        <span class="ind-menu-t">系统主菜单</span>
+        <ul class="ind-menu-uls1">
+            <li>
+                <span class="iconfont icon-iconfontdesktop"></span>
+                <span class="ind-menu-span">工作台</span>
+            </li>
+            <li>
+                <div class="ind-menu-lis">
+                    <span class="iconfont icon-icon-bars"></span>
+                    <span class="ind-menu-span">商品</span>
+                    <span class="iconfont icon-el-icon-arrow-down icojt"></span>
+                </div>
+                <ul class="ind-menu-uls2">
+                    <li><span>商品管理</span></li>
+                    <li><span>发布商品</span></li>
+                    <li><span>分类管理</span></li>
+                    <li><span>品牌管理</span></li>
+                </ul>
+            </li>
+            <li>
+                <div class="ind-menu-lis">
+                    <span class="iconfont icon-appstoreo"></span>
+                    <span class="ind-menu-span">订单</span>
+                    <span class="iconfont icon-el-icon-arrow-down icojt"></span>
+                </div>
+                <ul class="ind-menu-uls2">
+                    <li><span>订单管理</span></li>
+                    <li><span>打印快递单</span></li>
+                    <li><span>发货信息管理</span></li>
+                    <li><span>退货/退款管理</span></li>
+                </ul>
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </aside>
+    </div>
+    <section>
+        <ul class="index-sec">
+            <li>
+                <span class="iconfont icon-home-copy" style="color: #188ae2"></span>
+            </li>
+            <li class="index-sec-li1">>
+                工作台
+            </li>
+        </ul>
+
+    </section>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script>
+    // (function(){
+    /*$(".ind-menu-lis").click(function(){
+        $(this).next(".ind-menu-uls2").toggle();
+    })*/
+    // })()
+    $(document).ready(function(){
+        $(".ind-menu-lis").click(function(){
+            $(this).next().slideToggle();
+            $(this).parent().siblings().children("ul").slideUp();
+        });
+    });
+
+</script>

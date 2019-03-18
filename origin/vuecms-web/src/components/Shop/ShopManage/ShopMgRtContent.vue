@@ -1,6 +1,15 @@
 <template>
   <div class="sec-content">
     <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
+    <shop-mg-rt-word> </shop-mg-rt-word>
   </div>
 </template>
 

@@ -8,8 +8,8 @@
 
 <script>
   import ShopTpContent from "./ShopTpContent"
-  import ShopTpFooter from "./ShopTpFooter"
-  import ShopTpHeader from "./ShopTpHeader"
+  import ShopTpFooter from "../common/ShopTpFooter"
+  import ShopTpHeader from "../common/ShopTpHeader"
     export default {
         name: "shop-tp-section",
       components:{

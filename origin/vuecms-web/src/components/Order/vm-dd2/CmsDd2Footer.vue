@@ -28,11 +28,17 @@
 </script>
 
 <style scoped>
+  .vm-dd2-bigBox5{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
   .vm-dd2-bigBox5Left{
-    width:475px ;
+    width:500px ;
     height: 72px;
     line-height: 72px;
-    float: left;
+
   }
   .vm-dd2-bigBox5Left span{
     color: #c0c4cc;
@@ -47,9 +53,9 @@
   .vm-dd2-bigBox5Middle{
     width:255px;
     height: 72px;
-    float: left;
+
     line-height: 72px;
-    margin-left: 35px;
+
   }
   .vm-dd2-bigBox5Middle span{
     color:#999999;
@@ -67,10 +73,11 @@
   .vm-dd2-bigBox5Right{
     width: 200px;
     height: 72px;
-    float: left;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
+
   }
   .vm-dd2-bigBox5Right span{
     color:#606266;

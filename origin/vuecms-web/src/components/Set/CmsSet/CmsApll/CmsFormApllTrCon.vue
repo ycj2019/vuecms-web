@@ -1,12 +1,12 @@
 <template>
-    <tr class="s-f-t-table-tr bb">
+    <tr class="s-f-t-table-tr bbs">
         <td class="s-f-t-table-a"><input type="checkbox"></td>
         <td class="s-f-t-table-a">1</td>
         <td>接口</td>
         <td>/user/login</td>
         <td><div class="s-f-t-input"><input type="text" value="2"></div></td>
         <td class="s-f-t-table-d">
-            <a href="##" class="s-f-t-editd" title="运单模块设置"><span class="iconfont icon-dingdanshu aa"></span></a>
+            <a href="##" class="s-f-t-editd" title="运单模块设置"><span class="iconfont icon-dingdanshu aas"></span></a>
             <a href="##" class="s-f-t-edit" title="修改"><span class="iconfont icon-edit_small"></span></a>
             <a href="##" class="s-f-t-edits" title="删除"><span class="iconfont icon-del"></span></a>
         </td>
@@ -32,10 +32,10 @@
     .iconfont{
         font-size: 22px;
     }
-    .aa{
+    .aas{
         font-size: 20px;
     }
-    .bb:hover{
+    .bbs:hover{
         background: #eee;
         transition: .5s;
     }

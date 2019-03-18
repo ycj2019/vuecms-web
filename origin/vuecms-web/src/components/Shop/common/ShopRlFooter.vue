@@ -60,7 +60,7 @@
     border-color: #409eff;
     margin-left: 10px;
   }
-  .el-button:nth-child(3){
+  .el-button:last-child{
     color: #fff;
     background-color: #909399;
     margin-left: 10px;

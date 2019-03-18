@@ -33,6 +33,7 @@
   }
   .vm-dd3-bigBox4 ul{
     width: 100%;
+    margin-top: 10px;
   }
   .vm-dd3-bigBox4 ul li{
     width: 100%;
@@ -41,7 +42,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: -40px;
+    /*margin-left: -40px;*/
   }
   .vm-dd3-bigBox4 ul li>span{
     width: 194px;

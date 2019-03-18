@@ -2,7 +2,7 @@
   <div class="reName_box">
     <p class="old_name">
       <span>原名称</span>
-      <span>/ssdcdxvfcfd/sdc</span>
+      <span>/ssdcd/xvfcfd/sdc</span>
     </p>
     <p class="new_name">
       <span><em>* </em> 新名称<input type="text" /><em> *</em></span>

@@ -2,23 +2,42 @@
   <div class="el-col el-col-24 flex-50">
     <div class="el-form-item">
       <label class="el-form-item__label" style="width: 160px;">品牌</label>
-      <div class="el-form-item__content" style="margin-left: 160px;">
-        <div class="el-select w192">
-          <div class="el-input el-input--suffix">
-            <input type="text" autocomplete="off" placeholder="请选择品牌" readonly="readonly" class="el-input__inner">
-            <span class="iconfont icon-el-icon-arrow-down"></span>
-
-          </div>
-
-        </div>
-      </div>
+      <el-select v-model="value" placeholder="请选择">
+        <el-option
+          v-for="item in options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value">
+        </el-option>
+      </el-select>
     </div>
   </div>
 </template>
 
 <script>
     export default {
-        name: "shop-select"
+        name: "shop-select",
+      data() {
+        return {
+          options: [{
+            value: '选项1',
+            label: '黄金糕'
+          }, {
+            value: '选项2',
+            label: '双皮奶'
+          }, {
+            value: '选项3',
+            label: '蚵仔煎'
+          }, {
+            value: '选项4',
+            label: '龙须面'
+          }, {
+            value: '选项5',
+            label: '北京烤鸭'
+          }],
+          value: ''
+        }
+      }
     }
 </script>
 

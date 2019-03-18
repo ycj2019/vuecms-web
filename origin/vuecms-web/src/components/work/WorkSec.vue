@@ -1,11 +1,8 @@
 <template>
-    <diV>
+    <div>
       <div class="work-sec">
         <div class="work-sales">
-            <work-sales></work-sales>
-            <work-sales></work-sales>
-            <work-sales></work-sales>
-            <work-sales></work-sales>
+            <work-sales v-if="cartInfo.work" v-for="(data,idx) in cartInfo.work.header" :key="idx" :data="data"></work-sales>
         </div>
         <div class="work-con">
             <work-con-l></work-con-l>
@@ -18,7 +15,7 @@
             <work-con-foot></work-con-foot>
         </div>
       </div>
-    </diV>
+    </div>
 </template>
 
 <script>
@@ -27,11 +24,31 @@
     import WorkConR from "./WorkConR";
     import WorkConChart from "./WorkConChart";
     import WorkConFoot from "./WorkConFoot";
+    import cartApi from "../../Apis/cartApi"
 
 
     export default {
         name: "WorkSec",
-        components: {WorkConFoot, WorkConChart, WorkConR, WorkConL, WorkSales}
+        components: {WorkConFoot, WorkConChart, WorkConR, WorkConL, WorkSales},
+        data() {
+          return {
+            cartInfo: {}
+          }
+        },
+        created() {
+          this._initDatas()
+        },
+        methods: {
+          _initDatas(){
+            this.$axios.get('http://localhost:3000/')
+              .then((res) => {
+                console.log(res.data)
+                this.cartInfo = res.data
+              }).catch((err)=>{
+              console.log(err)
+            })
+          },
+        }
     }
 </script>
 

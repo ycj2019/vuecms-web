@@ -79,7 +79,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: -40px;
+    /*margin-left: -40px;*/
   }
 
   .vm-dd-bigBox4 ul li>span{
@@ -104,7 +104,7 @@
     font-size: 12px;
   }
   .lis2 .iconfont{
-    font-size:30px;
+    font-size:13px;
   }
   .icon-torder_light{
     padding: 3px 3px;

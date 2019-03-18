@@ -1,8 +1,10 @@
 <template>
   <div class="add-thing">
+    <router-link to="/shop/ShopAmend">
     <button class="add-btn">
       <span>发布正式商品</span>
     </button>
+    </router-link>
   </div>
 </template>
 

@@ -38,7 +38,15 @@ import AddSpecification from "@/components/Shop/AddSpecification/AddSpecificatio
 import ShopAddBrand from "@/components/Shop/ShopAddBrand/ShopAddBrand"
 
 
-import CmsDd2 from "@/components/Order/pages/CmsDd2"
+import CmsDd1 from "../components/order/pages/CmsDd1"
+import CmsDd1Children from "../components/order/pages/CmsDd1Children"
+import CmsDd2 from "../components/order/pages/CmsDd2"
+import CmsDd2Children from "../components/order/pages/CmsDd2Children"
+import CmsDd3 from "../components/order/pages/CmsDd3"
+import CmsDd3Children from "../components/order/pages/CmsDd3Children"
+import CmsDd3Children2 from "../components/order/pages/CmsDd3Children2"
+import CmsDd4 from "../components/order/pages/CmsDd4"
+import CmsDd4Children from "../components/order/pages/CmsDd4Children"
 
 import RunSection from "@/components/Run/Section/RunSection"
 import AddThing from "@/components/Run/Section/AddThing"
@@ -338,15 +346,43 @@ export default new Router({
           }
         },
         {
-          path:'ddtwo',
-          name:'CmsDd2',
-          component:CmsDd2,
+          path:'ddone',
+          name:'CmsDd1',
+          component:CmsDd1,
           meta:{
             breadcrumb:[
               {
                 title:"订单",
-                name:'打印快递单',
-                path:'/order/ddtwo'
+                name:'订单管理',
+                path:'/order/ddone'
+              }
+            ]
+          }
+        },
+        {
+          path:'ddthree',
+          name:'CmsDd3',
+          component:CmsDd3,
+          meta:{
+            breadcrumb:[
+              {
+                title:"订单",
+                name:'发货信息管理',
+                path:'/order/ddthree'
+              }
+            ]
+          }
+        },
+        {
+          path:'ddfour',
+          name:'CmsDd4',
+          component:CmsDd4,
+          meta:{
+            breadcrumb:[
+              {
+                title:"订单",
+                name:'发货信息管理',
+                path:'/order/ddfour'
               }
             ]
           }

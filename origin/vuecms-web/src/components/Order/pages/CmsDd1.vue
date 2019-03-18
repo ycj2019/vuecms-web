@@ -36,9 +36,10 @@
   .content{
     top: 64px;
     bottom: 24px;
-    width: 100%;
+    /*width: 100%;*/
     padding: 0 24px;
     background: #f0f4f6;
+    margin-left: 220px;
   }
   section{
     width:100%;

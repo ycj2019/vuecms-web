@@ -13,7 +13,7 @@
         },
         {
           "title":"发布商品",
-          "to": "/asd"
+          "to": "/shop/shopiss"
         },
         {
           "title":"分类管理",
@@ -33,15 +33,15 @@
         },
         {
           "title":"商品咨询",
-          "to": "/asd"
+          "to": "/shop/shopcons"
         },
         {
           "title":"商品评价",
-          "to": "/asd"
+          "to": "/shop/shopeva"
         },
         {
           "title":"热销商品",
-          "to": "/asd"
+          "to": "/shop/shopsell"
         },
         {
           "title":"库存预警",

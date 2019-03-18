@@ -14,17 +14,17 @@
 
 
 
-        ShopClassify.vue          分类管理
+        ShopClassify.vue          分类管理1
         ShopConsult.vue           商品咨询
         ShopEvaluate.vue          商品评价
         ShopFields.vue            商品字段
         ShopIssue.vue             发布商品
-        ShopManage.vue            商品管理
+        ShopManage.vue            商品管理1
         ShopSell.vue              热销商品
-        ShopSpecification.vue     商品规格
-        ShopTrademark.vue         商品品牌
-        ShopType.vue              商品类型
-        ShopWarning.vue           库存预警
+        ShopSpecification.vue     商品规格1
+        ShopTrademark.vue         商品品牌1
+        ShopType.vue              商品类型1
+        ShopWarning.vue           库存预警1
         ShopReply.vue             回复
         ShopAddType.vue           添加类型
         ShopAddBrand.vue          添加品牌

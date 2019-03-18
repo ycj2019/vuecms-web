@@ -31,12 +31,13 @@
           this._initData()
         },
         methods: {
-         /* _initData() {
+          _initData() {
             cartApi.getCartsInfo(data => {
               console.log(data)
               this.cartInfo = data;
-            })*/
-          _initData(){
+            })
+          }
+         /* _initData(){
             this.$axios.get('http://localhost:3000/')
               .then((res) => {
                 console.log(res.data)
@@ -44,7 +45,7 @@
               }).catch((err)=>{
               console.log(err)
             })
-          },
+          },*/
           /*haha(){
             $.ajax({
               type:'POST',

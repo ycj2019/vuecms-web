@@ -26,6 +26,17 @@ import ShopClassify from "@/components/Shop/ShopClassify/ShopClassify"
 import ShopTrademark from "@/components/Shop/ShopTrademark/ShopTrademark"
 import ShopSpecification from "@/components/Shop/ShopSpecification/ShopSpecification"
 import ShopType from "@/components/Shop/ShopType/ShopType"
+import ShopConsult from "@/components/Shop/ShopConsult/ShopConsult"
+import ShopEvaluate from "@/components/Shop/ShopEvaluate/ShopEvaluate"
+import ShopSell from "@/components/Shop/ShopSell/ShopSell"
+import ShopIssue from "@/components/Shop/ShopIssue/ShopIssue"
+import ShopFields from "@/components/Shop/ShopFields/ShopFields"
+import ShopReply from "@/components/Shop/ShopReply/ShopReply"
+import ShopAddType from "@/components/Shop/ShopAddType/ShopAddType"
+import ShopAmend from "@/components/Shop/ShopAmend/ShopAmend"
+import AddSpecification from "@/components/Shop/AddSpecification/AddSpecification"
+import ShopAddBrand from "@/components/Shop/ShopAddBrand/ShopAddBrand"
+
 
 import CmsDd2 from "@/components/Order/pages/CmsDd2"
 
@@ -168,6 +179,143 @@ export default new Router({
                 }
               ]
             },
+          },
+          {
+            path: 'shopcons',
+            name: 'ShopConsult',
+            component: ShopConsult,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'商品咨询',
+                  path:'/shop/shopcons'
+                }
+              ]
+            },
+          },{
+            path: 'shopeva',
+            name: 'ShopEvaluate',
+            component: ShopEvaluate,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'商品评价',
+                  path:'/shop/shopeva'
+                }
+              ]
+            },
+          },{
+            path: 'shopiss',
+            name: 'ShopIssue',
+            component: ShopIssue,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'发布商品',
+                  path:'/shop/shopiss'
+                }
+              ]
+            },
+          },{
+            path: 'shopsell',
+            name: 'ShopSell',
+            component: ShopSell,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'热销商品',
+                  path:'/shop/shopsell'
+                }
+              ]
+            }
+          },
+          {
+            path: 'shopfields',
+            name: 'ShopFields',
+            component: ShopFields,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'商品字段',
+                  path:'/shop/shopfields'
+                }
+              ]
+            }
+          },
+          {
+            path: 'shopreply',
+            name: 'ShopReply',
+            component: ShopReply,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'回复',
+                  path:'/shop/shopreply'
+                }
+              ]
+            }
+          },
+          {
+            path: 'shopaddtype',
+            name: 'ShopAddType',
+            component: ShopAddType,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'添加类型',
+                  path:'/shop/shopaddtype'
+                }
+              ]
+            }
+          },
+          {
+            path: 'shopaddbrand',
+            name: 'ShopAddBrand',
+            component: ShopAddBrand,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'添加品牌',
+                  path:'/shop/shopaddbrand'
+                }
+              ]
+            }
+          },
+          {
+            path: 'shopamend',
+            name: 'ShopAmend',
+            component: ShopAmend,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'修改商品',
+                  path:'/shop/shopamend'
+                }
+              ]
+            }
+          },
+          {
+            path: 'addspecification',
+            name: 'AddSpecification',
+            component: AddSpecification,
+            meta:{
+              breadcrumb:[
+                {
+                  title:"商品",
+                  name:'添加规格',
+                  path:'/shop/addspecification'
+                }
+              ]
+            }
           }
         ]
     },
@@ -175,6 +323,20 @@ export default new Router({
       path: '/order',
       component: CmsIndex,
       children:[
+        {
+          path:'ddtwo',
+          name:'CmsDd2',
+          component:CmsDd2,
+          meta:{
+            breadcrumb:[
+              {
+                title:"订单",
+                name:'打印快递单',
+                path:'/order/ddtwo'
+              }
+            ]
+          }
+        },
         {
           path:'ddtwo',
           name:'CmsDd2',

@@ -1,6 +1,7 @@
 <template>
     <div>
-      <li class="index-sec-li1" v-for="item in breadcrumb"> > {{item.name}} </li>
+      <li class="index-sec-li1" v-if="item.title" v-for="item in breadcrumb"> > {{item.title}} </li>
+      <li class="index-sec-li1" v-if="items.name" v-for="items in breadcrumb"> > {{items.name}} </li>
     </div>
 </template>
 
@@ -9,7 +10,6 @@
         name: "CmsIndexSecLis",
         computed :{
           breadcrumb () {
-            console.log(this.$route)
             return this.$route.meta.breadcrumb
           }
         }

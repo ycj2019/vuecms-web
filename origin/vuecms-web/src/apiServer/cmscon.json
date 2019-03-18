@@ -9,27 +9,27 @@
       "children": [
         {
           "title":"商品管理",
-          "to": "/asd"
+          "to": "/shop/shopmanage"
         },
         {
           "title":"发布商品",
-          "to": "/ass"
+          "to": "/asd"
         },
         {
           "title":"分类管理",
-          "to": "/add"
+          "to": "/shop/shopclassify"
         },
         {
           "title":"品牌管理",
-          "to": "/asd"
+          "to": "/shop/shoptrademark"
         },
         {
           "title":"规格管理",
-          "to": "/asd"
+          "to": "/shop/shopspecification"
         },
         {
           "title":"类型管理",
-          "to": "/asd"
+          "to": "/shop/shoptype"
         },
         {
           "title":"商品咨询",
@@ -45,7 +45,7 @@
         },
         {
           "title":"库存预警",
-          "to": "/asd"
+          "to": "/shop/shopwarning"
         }
       ]
     },
@@ -59,7 +59,7 @@
         },
         {
           "title":"打印快递单",
-          "to": "/asd"
+          "to": "/order/ddtwo"
         },
         {
           "title":"发货信息管理",
@@ -77,35 +77,35 @@
       "children": [
         {
           "title":"管理员",
-          "to": "/asd"
+          "to": "/run/admin"
         },
         {
           "title":"角色管理",
-          "to": "/asd"
+          "to": "/run/role"
         },
         {
           "title":"广告版位",
-          "to": "/asd"
+          "to": "/run/ggposition"
         },
         {
           "title": "广告管理",
-          "to": "/asd"
+          "to": "/run/ggmanage"
         },
         {
           "title":"优惠券",
-          "to": "/asd"
+          "to": "/run/coupon"
         },
         {
           "title":"在线客服",
-          "to": "/asd"
+          "to": "/run/onservice"
         },
         {
           "title":"首页海报",
-          "to": "/asd"
+          "to": "/run/homeposter"
         },
         {
           "title": "系统操作日志",
-          "to": "/asd"
+          "to": "/run/xtczlog"
         }
       ]
     },
@@ -115,23 +115,23 @@
       "children": [
         {
           "title": "用户管理",
-          "to": "/asd"
+          "to": "/user/man"
         },
         {
           "title":"用户等级",
-          "to": "/asd"
+          "to": "/user/class"
         },
         {
           "title":"数据字典",
-          "to": "/asd"
+          "to": "/user/list"
         },
         {
           "title":"字典类型",
-          "to": "/asd"
+          "to": "/user/type"
         },
         {
           "title": "站内信",
-          "to": "/asd"
+          "to": "/user/mail"
         }
       ]
     },
@@ -141,19 +141,19 @@
       "children": [
         {
           "title":"模块管理",
-          "to": "/asd"
+          "to": "/inter/tem"
         },
         {
           "title":"资源管理",
-          "to": "/asd"
+          "to": "/inter/res"
         },
         {
           "title":"栏目",
-          "to": "/asd"
+          "to": "/inter/col"
         },
         {
           "title": "文章",
-          "to": "/asd"
+          "to": "/inter/art"
         }
       ]
     },
@@ -163,59 +163,59 @@
       "children": [
         {
           "title":"全局设置",
-          "to": "/asd"
+          "to": "/set/setglo"
         },
         {
           "title":"基本设置",
-          "to": "/asd"
+          "to": "/set/setbas"
         },
         {
           "title":"邮箱设置",
-          "to": "/asd"
+          "to": "/set/setema"
         },
         {
           "title": "单点登录设置",
-          "to": "/asd"
+          "to": "/set/setlogin"
         },
         {
           "title":"第三方登录设置",
-          "to": "/asd"
+          "to": "/set/setthird"
         },
         {
           "title":"支付插件",
-          "to": "/asd"
+          "to": "/set/setpay"
         },
         {
           "title":"公众号设置",
-          "to": "/asd"
+          "to": "/set/setten"
         },
         {
           "title": "配送方式",
-          "to": "/asd"
+          "to": "/set/delmet"
         },
         {
           "title":"API接口账户管理",
-          "to": "/asd"
+          "to": "/set/itunes"
         },
         {
           "title":"api接口信息",
-          "to": "/asd"
+          "to": "/set/protmes"
         },
         {
           "title":"api接口调用记录",
-          "to": "/asd"
+          "to": "/set/callrec"
         },
         {
           "title": "FTP管理",
-          "to": "/asd"
+          "to": "/set/ftpman"
         },
         {
           "title":"物流公司",
-          "to": "/asd"
+          "to": "/set/apll"
         },
         {
           "title": "区域管理",
-          "to": "/asd"
+          "to": "/set/disman"
         }
       ]
     }

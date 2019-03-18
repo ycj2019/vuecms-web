@@ -144,13 +144,14 @@ aside{
 
 /*section */
 section{
-    margin-left: 220px;
     position: relative;
     right: 0;
     left: 0;
     padding-top: 80px;
+    margin-left: 220px;
 }
 .index-sec{
+    /*margin-left: 220px;*/
     padding: 0 24px;
     height: 64px;
     line-height: 64px;
@@ -164,5 +165,117 @@ section{
 .index-sec-li1{
     color: #999;
 }
+.work-sec{
+    top: 64px;
+    bottom: 24px;
+    padding: 0 24px;
+}
+.work-sales{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.work-sales-con {
+    background: #17d57e;
+    height: 99px;
+    padding: 16px 20px;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    width: 20%;
+}
+.work-sales-hea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-sales-hea span{
+    font-size: 36px;
+}
+.work-sales-name{
+    margin-top: 16px;
+    text-align: right;
+}
+.work-con{
+    display: flex;
+    justify-content: space-between;
+}
+.work-con-l{
+    width: 49%;
+}
+.work-deal{
+    background: white;
+    margin-bottom: 24px;
+}
+.work-h3{
+    font-size: 16px;
+    line-height: 48px;
+    padding-left: 24px;
+    font-weight: 400;
+    border-bottom: 1px solid #f5f5f5;
+}
+.work-menu{
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 24px;
+    background: white;
+}
+.work-menu a{
+    font-size: 14px;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+}
+.work-menu a .bs{
+    font-size: 28px;
+    color: #c0d9ec;;
+}
+.work-menu a .num{
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+}
+.work-menu a .bj{
+    display: block;
+    width: 64px;
+    height: 64px;
+    color: white;
+    font-size: 36px;
+    line-height: 64px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.icon-fabushangpin1{
+    background: #ffbe60;
+}
+.icon-tupian{
+    background: #47d7e8;
+}
+.icon-ziyuan{
+    background: #55de9f;
+}
+.icon-kefu{
+    background: #fb99cc;
+}
+.icon-fabudewenzhang{
+    background: #87c0ea;
+}
+.work-con-r{
+
+}
+.work-shop{
+
+}
+
+
+
+
+
+
+
+
+
 
 

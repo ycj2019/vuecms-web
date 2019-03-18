@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/vm-dd.css">
+</head>
+<body>
+<!--header-->
+
+<div class="vm-dd-header">
+    <span class="iconfont icon-home-copy"></span>
+    <img src="img/1.png" alt="">
+    <span>订单</span>
+    <img src="img/1.png" alt="">
+    <span>订单管理</span>
+</div>
+
+<!--bigbox-->
+<section>
+
+  <div class="vm-dd-bigBox2">
+    <span>订单列表</span>
+  </div>
+  <div class="vm-dd-bigBox3">
+      <div class="vm-dd-bigBox3_1">
+        <div class="vm-dd-bigBox3_1_top">
+          <div class="vm-dd-bigBox3_1_topOne">
+            <span>订单状态</span>
+            <img id="img01" src="img/2.png" alt="">
+            <img id="img02" src="img/3.png" alt="">
+            <div class="vm-dd-bigBox3_1_topOneHidden">
+              <ul>
+                <li><span>订单状态</span></li>
+                <li><span>未确认</span></li>
+                <li><span>已确认</span></li>
+                <li><span>已取消</span></li>
+                <li><span>已完成</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="vm-dd-bigBox3_1_topOne">
+            <span>支付状态</span><img id="img01" src="img/2.png" alt="">
+          </div>
+          <div class="vm-dd-bigBox3_1_topOne">
+            <span>配送状态</span><img id="img01" src="img/2.png" alt="">
+          </div>
+          <div class="vm-dd-bigBox3_1_topOne">
+            <span>支付方式</span><img id="img01" src="img/2.png" alt="">
+          </div>
+          <div class="vm-dd-bigBox3_1_topOne">
+            <span>配送方式</span><img id="img01" src="img/2.png" alt="">
+          </div>
+        </div>
+        <div class="vm-dd-bigBox3_1_bottom">
+          <span>订单编号</span>:
+          <input id="inp" type="text">
+          <span class="spa">下单时间</span>:
+          <input class="inp" type="text"><img src="img/5.png" alt=""><input class="inp" type="text"><span class="spa2">查询</span>
+        </div>
+      </div>
+  </div>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script>
+    window.onload = function(){
+      $(".vm-dd-bigBox3_1_topOne").click(function(){
+        $(".vm-dd-bigBox3_1_topOneHidden").css("display","block")
+        $("#img01").css("display","none")
+        $("#img02").css("display","block")
+        $(".vm-dd-bigBox3_1_topOne").css("border-color","#409eff")
+      })
+      $("#img02").click(function () {
+        $("#img01").css("display","block")
+        $("#img02").css("display","none")
+        $(".vm-dd-bigBox3_1_topOneHidden").css("display","none")
+      })
+
+    }
+
+
+
+  </script>
+  <div class="vm-dd-bigBox4">
+    <ul>
+      <li class="lis">
+        <input type="checkbox">
+        <span>id</span>
+        <span>订单编号</span>
+        <span>买家用户名</span>
+        <span>订单金额（元）</span>
+        <span>下单日期</span>
+        <span>订单状态</span>
+        <span>支付状态</span>
+        <span>支付方式</span>
+        <span>配送状态</span>
+        <span>配送方式</span>
+        <span>操作</span>
+      </li>
+      <li class="lis2">
+        <input type="checkbox">
+        <span>1971</span>
+        <span>1552383750253</span>
+        <span>test1</span>
+        <span>3100(含运费0)</span>
+        <span>2019-03-12 17:42:30</span>
+        <span>未确认</span>
+        <span>未支付</span>
+        <span>网上支付</span>
+        <span>未发货</span>
+        <span>普通快递</span>
+        <span>
+          <span class="iconfont icon-torder_light"></span>
+          <span class="iconfont icon-edit_small"></span>
+          <span class="iconfont icon-del"></span>
+        </span>
+      </li>
+
+
+    </ul>
+
+  </div>
+  <div class="vm-dd-bigBox5">
+    <div class="vm-dd-bigBox5Left">
+      <span>批量删除</span>
+      <p>每页显示<input type="text" value="10">条，输入后按回车</p>
+    </div>
+    <div class="vm-dd-bigBox5Right">
+      <span class="spa4">共1120条</span>
+      <p><img src="img/6.png" alt=""><span class="spa3">1</span><span>2</span>
+          <span>3</span><span>4</span><span>5</span><span>6</span>
+          <span>...</span><span>112</span><img src="img/7.png" alt="">
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+
+</body>
+</html>

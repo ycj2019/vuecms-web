@@ -36,11 +36,24 @@
               console.log(data)
               this.cartInfo = data;
             })
+          },
+          haha(){
+            $.ajax({
+              type:'POST',
+              url:'http://localhost:3000/first',
+              headers:{
+                "Conten-Type":"http://localhost:3000/first"
+              },
+              success:function (backDate) {
+                // body...
+                console.log(backDate);
+              }
+            })
           }
-        }
+        },
     }
 </script>
 
-<style scoped>
-
+<style>
+@import "../../../static/run/css/operat.css";
 </style>

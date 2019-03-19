@@ -8,7 +8,7 @@
               <span class="work-shopr">分类</span>
               <span class="work-shopr">销量</span>
           </div>
-          <work-con-shop></work-con-shop>
+          <work-con-shop :data="data"></work-con-shop>
       </div>
     </div>
 </template>
@@ -19,7 +19,8 @@
 
     export default {
         name: "WorkConR",
-        components: {WorkConShop, WorkConRadio}
+        components: {WorkConShop, WorkConRadio},
+      props:["data"]
     }
 </script>
 
@@ -48,7 +49,7 @@
   display: inline-block;
 }
 .work-shopr{
-  width: 17%;
+  width: 15%;
   display: inline-block;
   text-align: center;
 }

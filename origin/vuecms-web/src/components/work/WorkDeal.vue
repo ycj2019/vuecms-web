@@ -3,11 +3,7 @@
     <div class="work-deal" style="margin-bottom: 24px">
       <h3 class="work-h3">待处理</h3>
       <div class="work-menu">
-        <a href="#"><span class="iconfont icon-daifahuo bs"></span><span>代发货</span><span class="num">1136</span></a>
-        <a href="#"><span class="iconfont icon-icon-daifukuan bs"></span><span>代付款</span><span class="num">1101</span></a>
-        <a href="#"><span class="iconfont icon-tuihuotuikuan bs"></span><span>退货/退款</span><span class="num">13</span></a>
-        <a href="#"><span class="iconfont icon-kucun bs"></span><span>库存预警</span><span class="num">1</span></a>
-        <a href="#"><span class="iconfont icon-zixun-on bs"></span><span>商品咨询</span><span class="num">87</span></a>
+        <work-con-menu v-for="(da,idx) in data" :key="idx" :data="da"></work-con-menu>
       </div>
     </div>
     <div class="work-deal">
@@ -24,8 +20,11 @@
 </template>
 
 <script>
+    import WorkConMenu from "./WorkConMenu";
     export default {
-        name: "WorkDeal"
+        name: "WorkDeal",
+      components: {WorkConMenu},
+      props:["data"]
     }
 </script>
 

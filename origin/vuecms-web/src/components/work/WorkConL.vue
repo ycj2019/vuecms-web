@@ -1,12 +1,13 @@
 <template>
-      <work-deal></work-deal>
+      <work-deal :data="data"></work-deal>
 </template>
 
 <script>
     import WorkDeal from "./WorkDeal";
     export default {
         name: "WorkConL",
-        components: {WorkDeal}
+        components: {WorkDeal},
+        props:["data"]
     }
 </script>
 

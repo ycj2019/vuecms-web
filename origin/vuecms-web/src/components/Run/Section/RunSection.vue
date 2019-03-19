@@ -29,7 +29,6 @@
 
 <script>
   import TableContent from "./TableContent"
-  import apiServer from "../../../Apis/cartApi"
     export default {
       props:["data"],
       components: {

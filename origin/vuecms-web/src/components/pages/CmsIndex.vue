@@ -17,7 +17,6 @@
     import CmsIndexHea from "./CmsIndexHea"
     import CmsIndexAside from "./CmsIndexAside"
     import CmsIndexSec from "./CmsIndexSec"
-    import cartApi from "../../Apis/cartApi"
 
     export default {
         name: "CmsIndex",
